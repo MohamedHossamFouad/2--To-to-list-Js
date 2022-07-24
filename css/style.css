@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #352f5b;
+    color: white;
+    background-image: linear-gradient(to right, #352f5b, #6d034d);
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+.task{
+    width: 70vw;
+    background: #966262;
+    margin: 30px auto;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 8px 8px 10px 0 rgba(255, 255, 255, 0.57);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    text-align: center;
+    padding: 20px 20px 2px 20px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+p{
+    font-size:22px;
+}
+.icon{
+    font-size: 24px;
+}
+
+.icon:hover{
+    font-size: 26px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.icon-star ,.icon-trash{
+    opacity: 0.5;
+    margin-right: 10px;
+}
+.icon-star:hover {
+    color: orange;
+    opacity: 1;
+}
+.icon-trash:hover{
+    color: red;
+    opacity: 1;
+}
+.icon-angry2{
+    color: rgb(251, 255, 0);
+}
+
+.next{
+    text-align: center;
+    margin: 80px 0 280px 0;
+}
+.next h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.next input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 35vw;
+    font-size: 21px;
+    margin-right: 15px;
+}
+.next button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 21px;
+    background: #966262;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.next button:hover{
+    background: #b30e0e;
+    transition: all 0.2s linear;
+}
+
+.done{
+    text-decoration: line-through;
+}
+.none{
+    display: none;
+}
+.icon-heart{
+    color: red;
+}
+
+.active{
+    color: orange;
+    opacity: 1;
+}
+.finish{
+    background:  rgb(0, 255, 89,0.4);
+}
